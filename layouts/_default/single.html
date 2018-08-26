@@ -9,10 +9,12 @@
     </p>
   </header>
   <div class="post-content">
-  <div class="post-toc">
-    <h3>Table of contents</h3>
-    {{ if .Params.toc }}{{ .TableOfContents }}{{ end }}
-  </div>
+  {{ if .Params.toc }}
+    <div class="post-toc">
+      <h3>Table of contents</h3>
+      {{ .TableOfContents }}
+    </div>
+  {{ end }}
   {{ .Content }}
   </div>
   <footer class="post-footer">
