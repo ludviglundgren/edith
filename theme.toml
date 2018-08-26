@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Edith"
+license = "MIT"
+licenselink = "https://github.com/ludviglundgren/edith/blob/master/LICENSE"
+description = "The simple Hugo theme"
+homepage = "https://github.com/ludviglundgren/edith/"
+tags = ["Responsive", "Simple", "Clean", "Light", "White", "Blog"]
+features = ["Responsive", "One Column", "Blog"]
+min_version = "0.1"
+
+[author]
+  name = "Ludvig Lundgren"
+  homepage = "https://github.com/ludviglundgren"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
